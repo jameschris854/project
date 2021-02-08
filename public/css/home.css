@@ -47,14 +47,16 @@ body {
     padding: 0% 0% 0% 0%;
 }
 .header>div{
-    border-left: solid 0.1px ;
+    border-left: solid 0.1px;
     padding: 0.5%;
     padding-bottom: 0%;
     font-size: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding:0.5%;
+    padding: 0.5%;
+    padding-top: 0.4%;
     padding-right: 1%;
+    padding-bottom: 0.2%;
 }
 .header>div:hover{
     cursor: pointer;
@@ -72,6 +74,9 @@ body {
     align-self: start;
     color: black;
     padding-right: 0.5%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+
 }
 .theme>i{
     font-size: 125%;
@@ -227,7 +232,18 @@ body {
       margin-bottom: 100%;
 
   }
-  .sMedia>a:hover{
-      color: cornflowerblue;
+  .sMedia>a>i{
+      transition: ease-in-out 1s;
   }
- 
+  .fa-instagram:hover{
+    color:rgb(226, 43, 113);
+}
+ .fa-quora:hover{
+     color: red;
+ }
+ .fa-linkedin-in:hover{
+     color: blue;
+ }
+ .fa-discord:hover{
+     color: cornflowerblue;
+ }
