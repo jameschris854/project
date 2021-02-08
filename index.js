@@ -14,7 +14,7 @@ const test = JSON.parse(data)
 // console.log(test);
 
 //routes//
-app.get('/', (req, res) => {
+app.get("/", (req, res) => {
     res.render('home')
 })
 app.get('/home', (req, res) => {
