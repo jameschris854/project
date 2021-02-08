@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900" rel="stylesheet" />
+    <link rel="icon"
+        href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png" />
+    <link rel="stylesheet" type="text/css" href="/css/productscard.css">
+    <title>Fresh Avocados 🥑 /// NODE FARM</title>
+</head>
+
+<body>
+    <div class=" container">
+        <div class="title">🌽 Node Farm 🥦</div>
+        <div class="layout">
+            <div class="back"><a href="/home/node-farm">👈 back</a></div>
+            <div class="type {%type-class%}">
+                <div>{%type%}</div>
+            </div>
+            <div class="product__hero">
+                <span class="product__emoji product__emoji--1">
+                    <%=PC[qId].image%>
+                </span>
+                <span class="product__emoji product__emoji--2">
+                    <%=PC[qId].image%>
+                </span>
+                <span class="product__emoji product__emoji--3">
+                    <%=PC[qId].image%>
+                </span>
+                <span class="product__emoji product__emoji--4">
+                    <%=PC[qId].image%>
+                </span>
+                <span class="product__emoji product__emoji--5">
+                    <%=PC[qId].image%>
+                </span>
+                <span class="product__emoji product__emoji--6">
+                    <%=PC[qId].image%>
+                </span>
+                <span class="product__emoji product__emoji--7">
+                    <%=PC[qId].image%>
+                </span>
+                <span class="product__emoji product__emoji--8">
+                    <%=PC[qId].image%>
+                </span>
+                <span class="product__emoji product__emoji--9">
+                    <%=PC[qId].image%>
+                </span>
+            </div>
+            <div class="product-name">
+                <div>
+                    <%=PC[qId].productname%>
+                </div>
+            </div>
+            <div class="grid">
+                <div>🌍 <%=PC[qId].from%>
+                </div>
+                <div>❤️ <%=PC[qId].nutrients%>
+                </div>
+                <div>📦<%=PC[qId].quantity%> 🥑</div>
+                <div>🏷 <%=PC[qId].price%>€</div>
+            </div>
+            <div class="shopping-cart">
+                <div class="shopping-cart-text">🛒 Add to shopping card (<%=PC[qId].price%>)</div>
+            </div>
+            <div class="description">
+                <p>
+                    <%=PC[qId].description%>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
